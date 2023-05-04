@@ -2,7 +2,7 @@
 const chars = 'djsfkhgalnbmewr'
 const weights = [2990, 2877, 2594, 2562, 2246, 2017, 1630, 1313, 1223, 1043, 662, 450, 349, 283, 262]
 
-export const keysmash = (
+const keysmash = (
   length: number,
   options = {
     /**
@@ -50,3 +50,5 @@ const weightedRandom = (weights: number[]) => {
     }
   }
 }
+
+export default keysmash

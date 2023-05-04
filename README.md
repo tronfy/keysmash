@@ -11,7 +11,7 @@ npm install keysmash
 ## usage
 
 ```ts
-import { keysmash } from 'keysmash'
+import keysmash from 'keysmash'
 
 const k = keysmash(15)
 // k: ahjdadsgdjdkdgf

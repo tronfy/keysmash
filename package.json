@@ -1,7 +1,7 @@
 {
   "name": "keysmash",
   "description": "a believable keysmash generator",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "main": "lib/keysmash.js",
   "types": "lib/keysmash.d.ts",
   "scripts": {
