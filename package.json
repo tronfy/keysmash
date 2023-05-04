@@ -1,0 +1,24 @@
+{
+  "name": "keysmash",
+  "description": "a believable keysmash generator",
+  "version": "1.0.0",
+  "main": "lib/keysmash.js",
+  "types": "lib/keysmash.d.ts",
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tronfy/keysmash.git"
+  },
+  "author": {
+    "name": "Nic Schmidt",
+    "email": "nicolasdschmidt@protonmail.com",
+    "url": "https://github.com/tronfy"
+  },
+  "license": "MIT",
+  "files": [
+    "lib/**/*"
+  ]
+}
