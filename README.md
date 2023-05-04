@@ -1,7 +1,9 @@
 # keysmash
+
 a believable keysmash generator
 
 ## installation
+
 ```bash
 npm install keysmash
 ```
@@ -9,13 +11,14 @@ npm install keysmash
 ## usage
 
 ```ts
-import keysmash from "keysmash"
+import { keysmash } from 'keysmash'
 
 const k = keysmash(15)
 // k: ahjdadsgdjdkdgf
 ```
 
 you can also pass additional options:
+
 ```ts
 keysmash(15, {
   rerollChance: 0.9,
